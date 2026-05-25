@@ -16,15 +16,15 @@ if (op == '+')
 {
     printf("Result: %d\n", a + b);
 }
-if (op == '-')
+else if (op == '-')
 {
     printf("Result: %d\n", a - b);
 }
-if (op == '*')
+else if (op == '*')
 {
     printf("Result: %d\n", a * b);
 }
-if (op == '/')
+else if (op == '/')
 {
     if (b == 0)
     {
@@ -34,6 +34,10 @@ if (op == '/')
     {
     printf("Result: %d\n", a / b);
     }
+}
+else
+{
+    printf("Error: Unknown operator\n");    
 }
 
 return 0;
