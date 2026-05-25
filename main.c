@@ -9,7 +9,7 @@ int main(void)
 
     again = 'y';
 
-     while (again == 'y')
+     while (again == 'y' || again == 'Y')
     { 
         printf("Enter number: ");
         scanf("%d", &a);
